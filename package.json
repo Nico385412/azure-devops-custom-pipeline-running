@@ -1,0 +1,24 @@
+{
+  "name": "azure-devops-custom-pipeline-running",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nico385412/azure-devops-custom-pipeline-running.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nico385412/azure-devops-custom-pipeline-running/issues"
+  },
+  "homepage": "https://github.com/Nico385412/azure-devops-custom-pipeline-running#readme",
+  "dependencies": {
+    "azure-pipelines-task-lib": "^5.2.0"
+  }
+}

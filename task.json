@@ -1,0 +1,31 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
+    "id": "f0d271ed-eb87-49df-9167-80036d071cc2",
+    "name": "testing-task",
+    "friendlyName": "Testing Task",
+    "description": "a task to test out azure pipelines",
+    "helpMarkDown": "",
+    "category": "Utility",
+    "author": "Nicolas Hansse",
+    "version": {
+        "Major": 0,
+        "Minor": 0,
+        "Patch": 1
+    },
+    "instanceNameFormat": "Echo $(samplestring)",
+    "inputs": [
+        {
+            "name": "samplestring",
+            "type": "string",
+            "label": "Sample String",
+            "defaultValue": "",
+            "required": true,
+            "helpMarkDown": "A sample string"
+        }
+    ],
+    "execution": {
+        "Node20_1": {
+            "target": "dist/index.js"
+        }
+    }
+}
